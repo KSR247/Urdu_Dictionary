@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+
+.card {
+  display: inline-block;
+  background-color: #c1e0f9;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 0 5px 10px 0 black;
+  border-radius: 15px;
+  transition: 0.3s;
+  margin: 8px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+
+.container {
+  justify-content: center;
+  padding: 2px 16px;
+  border-radius: 15px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px 0 black;
+}
+
+.meaning {
+  font-family: "Courgette", cursive;
+}
+
+.searchbox {
+  width: 30%;
+  margin: 10px 0 35px 0;
+  font-size: 3rem;
+  border-radius: 5px;
+  border-width: 5px black;
+}
+
+h1 {
+  font-size: 45px;
+}
